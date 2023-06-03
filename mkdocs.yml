@@ -1,0 +1,22 @@
+site_name: MM Docs
+site_url: https://meumicro.github.io
+nav:
+        - Inicio: index.md
+        - Perguntas Frequentes: faq.md
+        - Softwares Homologados: softwares-homologados.md
+        - Sobre: about.md
+theme:
+        name: material    
+        language: pt-BR
+        features:
+                - navigation.path
+plugins:
+        - search:
+                lang: pt
+markdown_extensions:
+        - attr_list
+        - md_in_html
+        - admonition
+        - pymdownx.keys
+        - pymdownx.details
+        - pymdownx.superfences
