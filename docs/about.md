@@ -7,11 +7,11 @@ Um pouco sobre nós...
 Esse é um titulo 2
 
 
-!!! note warning "Atenção"
+!!! note info "Atenção"
 
-	Este site foi desenvolvido pela equipe de Tecnologia da Informação (TI) da [MM {_ext}](https://www.meumicro.com), com uso do software [MKdocs {_ext}](https://www.mkdocs.org/) e do tema [MKdocs Material {_ext}](https://squidfunk.github.io/mkdocs-material/). Para geração do conteúdo, é utilizada a linguagem [Markdown {_ext}](https://pt.wikipedia.org/wiki/Markdown).
+	Este site foi desenvolvido pela **equipe de Tecnologia da Informação (TI)** da [MM](https://www.meumicro.com){:target="_blank"}, com uso do software [MKdocs](https://www.mkdocs.org/){:target="_blank"} e do tema [MKdocs Material](https://squidfunk.github.io/mkdocs-material/){:target="_blank"}. Para geração do conteúdo, é utilizada a linguagem [Markdown](https://pt.wikipedia.org/wiki/Markdown){:target="_blank"}.
 
-	Baseado em no site de [manuais da ANAC](https://manuaisti.anac.gov.br/)
+	Baseado no site de [manuais da ANAC](https://manuaisti.anac.gov.br/){:target="_blank"}
 
 ### Titulo 3
 

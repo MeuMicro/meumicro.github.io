@@ -1,22 +1,94 @@
 site_name: MM Docs
 site_url: https://meumicro.github.io
+
 nav:
         - Inicio: index.md
+        #- Blog:
+        #        - blog/index.md
+        - Hardware:
+          - Manutenção Corretiva: hardware/corretiva.md
+          - Manutenção Preventiva: hardware/preventiva.md
+        - Software:
+          - Microsoft: software/microsoft.md
+          - Open-Source: software/opensource.md
+        - Segurança da Informação:
+          - Malware: infosec/malware.md
         - Perguntas Frequentes: faq.md
-        - Softwares Homologados: softwares-homologados.md
         - Sobre: about.md
+
 theme:
         name: material    
         language: pt-BR
+        icon:
+                logo: fontawesome/solid/computer
+        #logo: images/logo.png
+        favicon: images/logo.png
         features:
+                - content.tooltips
                 - navigation.path
+                - navigation.expand
+                #- navigation.footer
+        palette:
+                - primary: blue
+                # accent: blue
+
+                # Palette toggle for automatic mode
+                - media: "(prefers-color-scheme)"
+                - toggle:
+                        icon: material/brightness-auto
+                        name: Switch to light mode
+                
+                # Palette toggle for light mode
+                - media: "(prefers-color-scheme: light)"
+                - scheme: default
+                - toggle:
+                        icon: material/brightness-7 
+                        name: Switch to dark mode
+                
+                # Palette toggle for dark mode
+                - media: "(prefers-color-scheme: dark)"
+                - scheme: slate
+                - toggle:
+                        icon: material/brightness-4
+                        name: Switch to light mode
+
+copyright: Copyright &copy; 2023
+
+extra:
+        social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/meumicro
+        #- icon: fontawesome/brands/instagram
+        #  link: https://github.com/meumicro
+        #- icon: fontawesome/brands/twitter
+        #  link: https://github.com/meumicro
+        consent:
+                title: Consentimento de cookies
+                description: >- 
+                        Usamos cookies para reconhecer suas visitas e preferências repetidas, bem como para medir a eficácia de nossa documentação e se os usuários encontram o que procuram. Com o seu consentimento, você está nos ajudando a melhorar nossa documentação.Usamos cookies para reconhecer suas visitas e preferências repetidas, bem como para medir a eficácia de nossa documentação e se os usuários encontram o que procuram. Com o seu consentimento, você está nos ajudando a melhorar nossa documentação.
+                actions:
+                        - accept 
+                        - reject 
 plugins:
         - search:
                 lang: pt
+        - social:
+        #- blog:
+        #        enabled:
+        #        blog_dir: blog
+        #        post_url_date_format: yyyy/MM/dd
+
+
 markdown_extensions:
+        - abbr
         - attr_list
         - md_in_html
+        - pymdownx.smartsymbols
         - admonition
-        - pymdownx.keys
+        - pymdownx.superfences:
+                custom_fences:
+                        - name: mermaid
+                          class: mermaid
+                          format: !!python/name:pymdownx.superfences.fence_code_format
         - pymdownx.details
-        - pymdownx.superfences
+        - pymdownx.keys
