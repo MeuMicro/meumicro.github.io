@@ -1,6 +1,18 @@
+# Project information
 site_name: MM Docs
 site_url: https://meumicro.github.io
+site_author: Kleber Santos
+site_description: >-
+  Escrevendo a documentação de uma forma masi facil com markdown
 
+# Repository
+repo_name: meumicro.github.io
+repo_url: https://github.com/MeuMicro/meumicro.github.io
+
+# Copyright
+copyright: Copyright &copy; 2023
+
+# Page tree
 nav:
         - Inicio: index.md
         #- Blog:
@@ -16,46 +28,73 @@ nav:
         - Perguntas Frequentes: faq.md
         - Sobre: about.md
 
+
+# Configuration
 theme:
-        name: material    
+        name: material
         language: pt-BR
         icon:
                 logo: fontawesome/solid/computer
-        #logo: images/logo.png
-        favicon: images/logo.png
         features:
+                - announce.dismiss
+                - content.action.edit
+                - content.action.view
+                - content.code.annotate
+                - content.code.copy
+                # - content.tabs.link
                 - content.tooltips
-                - navigation.path
+                # - header.autohide
                 - navigation.expand
                 #- navigation.footer
+                - navigation.indexes
+                # - navigation.instant
+                # - navigation.prune
+                #- navigation.sections
+                #- navigation.tabs
+                # - navigation.tabs.sticky
+                - navigation.top
+                - navigation.tracking
+                - search.highlight
+                - search.share
+                - search.suggest
+                - toc.follow
+                # - toc.integrate
         palette:
-                - primary: blue
-                # accent: blue
-                
-                # Palette toggle for light mode
-                - media: "(prefers-color-scheme: light)"
                 - scheme: default
-                - toggle:
-                        icon: material/brightness-7 
-                        name: Switch to dark mode
-                
-                # Palette toggle for dark mode
-                - media: "(prefers-color-scheme: dark)"
+                  primary: indigo
+                  accent: indigo
+                  toggle:
+                    icon: material/brightness-7
+                    name: Switch to dark mode
                 - scheme: slate
-                - toggle:
-                        icon: material/brightness-4
-                        name: Switch to light mode
+                  primary: indigo
+                  accent: indigo
+                  toggle:
+                    icon: material/brightness-4
+                    name: Switch to light mode
+        font:
+                text: Roboto
+                code: Roboto Mono
+        #favicon: assets/favicon.png
+        #icon:
+        #        logo: logo
 
-copyright: Copyright &copy; 2023
-
+# Customization
 extra:
+        analytics:
+                provider: google
+                property: !ENV GOOGLE_ANALYTICS_KEY
         social:
-        - icon: fontawesome/brands/github
-          link: https://github.com/meumicro
-        #- icon: fontawesome/brands/instagram
-        #  link: https://github.com/meumicro
-        #- icon: fontawesome/brands/twitter
-        #  link: https://github.com/meumicro
+                - icon: fontawesome/brands/github
+                  link: https://github.com/meumicro
+        #         - icon: fontawesome/brands/instagram
+        #           link: https://www.instagram.com/meumicro/
+        #         - icon: fontawesome/brands/youtube
+        #           link: https://www.youtube.com/channel/meumicro
+        #         - icon: fontawesome/brands/linkedin
+        #           link: https://www.linkedin.com/company/meumicro
+        #         - icon: fontawesome/brands/facebook
+        #           link: https://www.facebook.com/meumicro
         consent:
                 title: Consentimento de cookies
                 description: >- 
@@ -63,26 +102,56 @@ extra:
                 actions:
                         - accept 
                         - reject 
+        caption: true
+        lazy_load: true
+        align: center
+
+# Plugins
 plugins:
         - search:
                 lang: pt
-        - social:
-        #- blog:
-        #        enabled:
-        #        blog_dir: blog
-        #        post_url_date_format: yyyy/MM/dd
+        - minify:
+                minify_html: true
 
-
+# Extensions
 markdown_extensions:
         - abbr
-        - attr_list
-        - md_in_html
-        - pymdownx.smartsymbols
         - admonition
+        - attr_list
+        - def_list
+        - footnotes
+        - md_in_html
+        - toc:
+                permalink: true
+        - pymdownx.arithmatex:
+                generic: true
+        - pymdownx.betterem:
+                smart_enable: all
+        - pymdownx.caret
+        - pymdownx.details
+        - pymdownx.emoji:
+                emoji_generator: !!python/name:materialx.emoji.to_svg
+                emoji_index: !!python/name:materialx.emoji.twemoji
+        - pymdownx.highlight:
+                anchor_linenums: true
+                line_spans: __span
+                pygments_lang_class: true
+        - pymdownx.inlinehilite
+        - pymdownx.keys
+        - pymdownx.magiclink:
+                repo_url_shorthand: true
+                user: squidfunk
+                repo: mkdocs-material
+        - pymdownx.mark
+        - pymdownx.smartsymbols
         - pymdownx.superfences:
                 custom_fences:
-                        - name: mermaid
-                          class: mermaid
-                          format: !!python/name:pymdownx.superfences.fence_code_format
-        - pymdownx.details
-        - pymdownx.keys
+                - name: mermaid
+                  class: mermaid
+                  format: !!python/name:pymdownx.superfences.fence_code_format
+        - pymdownx.tabbed:
+                alternate_style: true
+        - pymdownx.tasklist:
+                custom_checkbox: true
+        - pymdownx.tilde
+        
