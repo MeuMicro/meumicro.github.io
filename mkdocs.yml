@@ -1,5 +1,5 @@
 # Project information
-site_name: MM Docs
+site_name: Meu Micro
 site_url: https://meumicro.github.io
 site_author: Kleber Santos
 site_description: >-
@@ -10,7 +10,7 @@ repo_name: meumicro.github.io
 repo_url: https://github.com/MeuMicro/meumicro.github.io
 
 # Copyright
-copyright: Copyright &copy; 2023
+copyright: Copyright &copy; 2023 - MeuMicro
 
 # Page tree
 nav:
@@ -20,10 +20,13 @@ nav:
         - Hardware:
           - Manutenção Corretiva: hardware/corretiva.md
           - Manutenção Preventiva: hardware/preventiva.md
+          - Venda de Peças e Partes: hardware/venda.md
         - Software:
-          - Microsoft: software/microsoft.md
-          - Open-Source: software/opensource.md
+          - Licencimento Microsoft: software/microsoft.md
+          - Sistemas Open-Source: software/opensource.md
+          - Serviços especializados: software/servicos.md
         - Segurança da Informação:
+          - Segurança:  infosec/seguranca.md
           - Malware: infosec/malware.md
         - Perguntas Frequentes: faq.md
         - Sobre: about.md
