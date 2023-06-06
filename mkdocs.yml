@@ -18,8 +18,7 @@ nav:
         #- Blog:
         #        - blog/index.md
         - Hardware:
-          - Manutenção Corretiva: hardware/corretiva.md
-          - Manutenção Preventiva: hardware/preventiva.md
+          - Manutenção preventiva e corretiva: hardware/manutencao.md
           - Venda de Peças e Partes: hardware/venda.md
         - Software:
           - Licencimento Microsoft: software/microsoft.md
