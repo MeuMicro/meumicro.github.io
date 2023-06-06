@@ -1,17 +1,5 @@
-# Welcome to MMDocs
+# Bem vindo ao Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-
-
-<div class="grid" markdown>
-
-- :fontawesome-brands-html5: __HTML__ for content and structure
-- :fontawesome-brands-js: __JavaScript__ for interactivity
-- :fontawesome-brands-css3: __CSS__ for text running out of boxes
-- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
-
-</div>
 
 
 
