@@ -26,7 +26,7 @@ nav:
           - Sistemas Open-Source: software/opensource.md
           - Serviços especializados: software/servicos.md
         - Segurança da Informação:
-          - Segurança:  infosec/seguranca.md
+          - Conceitos básicos da segurança:  infosec/seguranca.md
           - Malware: infosec/malware.md
         - Perguntas Frequentes: faq.md
         - Sobre: about.md
