@@ -42,4 +42,4 @@ A segurança cibernética refere-se a tecnologias, processos e treinamentos que 
 
 É geralmente conhecido como o modelo de Confidencialidade, Integridade, Disponibilidade (CIA) no contexto de segurança cibernética. Em todo o restante deste módulo, você aprenderá sobre os tipos de ataques que criminosos cibernéticos usam para interromper essas metas e causar danos. Você também verá algumas estratégias básicas de mitigação de ameaças.
 
-## [Panorama de ameças](seguranca/ameacas.md)
+## [Panorama de ameças](ameacas.md)
