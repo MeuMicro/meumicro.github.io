@@ -50,8 +50,9 @@ Um ataque de senha é quando alguém tenta usar a autenticação de uma conta pr
 
 O invasor tenta um grande número de combinações de senha possíveis para acessar a conta do usuário. A senha só precisa estar correta uma vez para que o invasor obtenha acesso. Isso é conhecido como um ataque de força bruta e é uma das muitas maneiras em que o criminoso cibernético pode usar ataques de senha.
 
-### O que são violações de dados?
+## O que são violações de dados?
 Uma violação de dados é quando um invasor obtém acesso ou controle de dados com êxito. Usando o exemplo de intruso, seria semelhante a uma pessoa que está acessando ou roubando documentos e informações vitais dentro do edifício:
+
 ![Violação de dados](https://learn.microsoft.com/pt-br/training/wwl-sci/describe-basic-cybersecurity-threats-attacks-mitigations/media/data-breach-v3.png)
 
 Quando um invasor consegue uma violação de segurança, geralmente deseja direcionar os dados, pois eles representam informações vitais. A segurança de dados ruim pode resultar em um invasor obtendo acesso e controle dos dados. Isso pode levar a sérias consequências para a vítima, seja uma pessoa, organização ou até mesmo um governo. Esse tipo de coisa ocorre porque os dados da vítima podem ser utilizados de várias maneiras. Por exemplo, eles podem ser sequestrados para solicitar um pedido de resgate ou usados para causar danos financeiros ou na reputação.
