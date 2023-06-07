@@ -18,23 +18,23 @@ O ideal é que ela seja aplicada em todos os equipamentos periodicamente, identi
 
 Na inspeção, o técnico pode identificar que o aparelho precisa de limpeza ou que uma peça deve ser trocada. Como esses problemas foram identificados com antecedência, eles puderam ser corrigidos antes que causassem falhas e levassem à parada do computador.
 
-Esse tipo de manutenção é mais barata que a [manutenção corretiva](corretiva.md).
+Esse tipo de manutenção é mais barata que a [manutenção corretiva](#manutencao-corretiva).
 
 ### Manutenção Corretiva
 Acredite, essa é a manutenção que você não quer em sua empresa. No entanto, é bastante comum. É a manutenção reativa, ou seja, de reação. É feita quando as máquinas param de funcionar, por falhas ou desgaste.
 
 Também chamada de manutenção de quebra, e essa definição já diz tudo, não é mesmo? Para que volte a funcionar, o equipamento precisa de intervenção, ou seja, de um técnico que o conserte para que volte a funcionar e a produção seja retomada.
 
-A manutenção corretiva é intencional. Escolhe-se esse tipo quando há se acredita que os cursos da [manutenção preventiva](preventiva.md) serão mais altos que os de parada e reparo. Apesar de não se tratar de falta de interesse ou competência do gestor em não programar manutenções, é arriscado apostar nesse tipo, pois a qualquer momento essa estratégia pode custar caro.
+A manutenção corretiva é intencional. Escolhe-se esse tipo quando há se acredita que os cursos da [manutenção preventiva](#manutencao-preventiva) serão mais altos que os de parada e reparo. Apesar de não se tratar de falta de interesse ou competência do gestor em não programar manutenções, é arriscado apostar nesse tipo, pois a qualquer momento essa estratégia pode custar caro.
 
 Por outro lado, a manutenção corretiva não é planejada e muitas vezes é emergencial. Ela deve ser aplicada quando o equipamento apresenta uma falha que precisa ser corrigida.
 
-A [manutenção preventiva](preventiva.md) muitas vezes diminui a necessidade de corretivas, já que se antecede às falhas. Quando isso não for possível, é preciso realizar todas as intervenções necessárias para que o ativo volte a funcionar.
+A [manutenção preventiva](#manutencao-preventiva) muitas vezes diminui a necessidade de corretivas, já que se antecede às falhas. Quando isso não for possível, é preciso realizar todas as intervenções necessárias para que o ativo volte a funcionar.
 
 Vamos voltar ao exemplo do computador. Se o aparelho não estiver funcionando corretamente, o técnico deve ser chamado para entender onde está o problema e sugerir uma solução adequada, como troca de peças ou até substituição total do equipamento.
 
 ## Qual a diferença entre manutenção preventiva e corretiva?
-A principal diferença entre manutenção preventiva e corretiva é a previsibilidade.
+A principal diferença entre [manutenção preventiva](#manutenção-preventiva) e [manutenção corretiva](#manutenção-corretiva) é a previsibilidade.
 
 Enquanto a manutenção preventiva pode ser programada para quando for conveniente, a manutenção corretiva é menos previsível. Ela acontece, na maioria das vezes, de última hora e precisa ser feita o quanto antes.
 
@@ -44,6 +44,6 @@ Outra diferença entre a manutenção preventiva e corretiva é o impacto: no pr
 
 Já no segundo caso, é muito comum que a intervenção precise ser urgente, pois o problema já está instaurado e pode se espalhar, ou pode levar à parada da máquina enquanto não for resolvido e assim prejudicar toda a operação.
 
-Ou seja, a manutenção preventiva é indicada para prevenir possíveis falhas, já a manutenção corretiva é aplicada quando a falha já está instaurada e precisa ser corrigida.
+Ou seja, a manutenção preventiva é indicada para prevenir possíveis falhas, já a [manutenção corretiva](#manutenção-corretiva) é aplicada quando a falha já está instaurada e precisa ser corrigida.
 
-Normalmente, recomendamos que você crie um plano de manutenção que priorize as preventivas e deixe as corretivas só para situações em que forem inevitáveis — mas o mais importante é definir o que é melhor para a sua empresa e os equipamentos utilizados.
+Normalmente, recomendamos que você crie um [plano de manutenção](plano-de-manutencao.md) que priorize as preventivas e deixe as corretivas só para situações em que forem inevitáveis — mas o mais importante é definir o que é melhor para a sua empresa e os equipamentos utilizados.
