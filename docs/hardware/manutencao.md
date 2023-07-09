@@ -40,7 +40,7 @@ Enquanto a manutenção preventiva pode ser programada para quando for convenien
 
 Por outro lado, as preventivas podem fazer parte de um cronograma de manutenção, assim o gestor agenda o serviço em momentos mais tranquilos, como após o turno de trabalho ou em períodos de baixa utilização.
 
-Outra diferença entre a manutenção preventiva e corretiva é o impacto: no primeiro caso, pode não ser preciso suspender as atividades e, ao identificar uma possível falha futura, é possível evitar o problema sem ter que arcar com os custos que seriam gerados por ele.
+Outra diferença entre a [manutenção preventiva](#manutenção-preventiva) e corretiva é o impacto: no primeiro caso, pode não ser preciso suspender as atividades e, ao identificar uma possível falha futura, é possível evitar o problema sem ter que arcar com os custos que seriam gerados por ele.
 
 Já no segundo caso, é muito comum que a intervenção precise ser urgente, pois o problema já está instaurado e pode se espalhar, ou pode levar à parada da máquina enquanto não for resolvido e assim prejudicar toda a operação.
 

@@ -1,6 +1,6 @@
-# Bem vindo ao Docs
+# Bem vindo à página de Manuais e Procedimentos
 
-
+![logo-card](assets/images/manuais-procedimentos.jpg#center){width="45%"}
 
 
 

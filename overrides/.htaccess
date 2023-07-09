@@ -1,0 +1,9 @@
+ErrorDocument 403 /403.html
+order deny,allow
+deny from all
+
+#HOME
+#FABIANO
+allow from 179.223.120.20
+#GUI
+allow from 189.39.40.177
